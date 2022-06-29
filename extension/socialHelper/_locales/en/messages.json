@@ -1,0 +1,8 @@
+{
+    "pluginDesc": {
+        "message": "A chrome plugin for major social media platforms (e.g., facebook, Twitter)"
+    },
+    "name": {
+        "message": "CS-74 Web Extension"
+    }
+}

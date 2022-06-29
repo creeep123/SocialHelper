@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Rules</title>
+		<style type="text/css">
+			
+      top{
+        color: black;
+        font-size:x-large;
+        text-decoration: none;
+      }
+  
+			#menu{
+				width: 130px;
+				border-bottom: none;
+			}
+			#menu ul{
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+			}
+			#menu ul li{
+				background-color: #E5E5E5;
+				padding: 0px 8px;
+				height: 26px;
+				line-height: 26px;
+				position: relative;
+			}
+
+      .button:hover{
+				color:white;
+				background-color:gray;
+			}
+			.button{
+				display:inline-block;
+				width:114px;
+				height:18px;
+				font-size:15px;
+				text-align:left;
+				line-height:18px;
+				color:#353535;
+				background-color:#E5E5E5;
+			}
+      .head{
+        border-bottom: 1px solid grey;
+				background-color: #E5E5E5;
+				padding: 0px 8px;
+				height: 26px;
+				line-height: 26px;
+				position: relative;
+			}
+
+			#menu ul li ul{
+				position: absolute;
+				display: none;
+				width: 100px;
+				left: 130px;
+				top: 0px;
+				
+			}
+			#menu ul li:hover ul{
+				display: block;
+			}
+
+      #menu ul li:hover{
+        background-color: #808080;
+      }
+
+      #menu ul li.head:hover{
+        background-color: #E5E5E5;
+      }
+      
+		</style>
+	</head>
+	<body>
+    
+		<div id="menu">
+			<ul>
+        <li class="head"><top>Control</top>
+        </li>
+				<li class="button">Insert News
+				</li>
+				<li class="button">Hide Info
+					<ul>
+						<li class="button" id="hideHeadline">Headline</li>
+						<li class="button" id="hideLike">Like</li>
+						<li class="button" id="hideReply">Reply</li>
+            <li class="button" id="hideComment">Comment</li>
+					</ul>				
+				</li>
+				<li class="button">Change Info</a>
+					<ul>
+						<li class="button" id="changeHeadline">Headline</li>
+						<li class="button" id="changeAuthor">Author</li>
+						<li class="button" id="changeImage">Image</li>
+						<li class="button" id="changeFont">Font</li>
+					</ul>
+				</li>
+				<li class="button">Change Order</a>
+					<ul>
+						<li class="button" id="timeOrder">Time</li>
+						<li class="button" id="authorOrder">Author</li>
+						<li class="button" id="randomOrder">Random</li>
+						<li class="button" id="changeColor">Alphabet</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+    <script src="popup.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,25 @@
+body.isCreateRoomHidden div[data-pagelet=VideoChatHomeUnit] {
+    display: none;
+}
+body.isCreateStoryHidden div[data-pagelet=Stories] {
+    display: none;
+}
+body.isAdsBlocked div[post_type=Ads] {
+    display: none;
+}
+body.isSuggestionBlocked div[post_type=Suggestion] {
+    display: none;
+}
+body.isLikeHidden div.tvfksri0.ozuftl9m > div > div:nth-child(1){
+    display: none;
+}
+body.isShareHidden div.tvfksri0.ozuftl9m > div > div:nth-child(3){
+    display: none;
+}
+body.isCommentHidden div.tvfksri0.ozuftl9m > div > div:nth-child(2){
+    display: none;
+}
+body.isReactionHidden div[style^="visibility: inherit;"],
+body.isReactionHidden div[class="bp9cbjyn j83agx80 buofh1pr ni8dbmo4 stjgntxs"]{
+    display: none;
+}
