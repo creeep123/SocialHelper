@@ -1,6 +1,7 @@
 # CS74---Web-Plugin-for-Social-Media
 
 A web extention project
+[👉Click here for the project description document👈](https://docs.qq.com/pdf/DSWN3RmNLRVVCbXJX)
 
 | Name        | Unikey   | Skills                                        | Roles               |
 | ----------- | -------- | --------------------------------------------- | ------------------- |
